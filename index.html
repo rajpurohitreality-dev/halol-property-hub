@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halol Property Hub</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+header {
+    background: linear-gradient(90deg,#0d47a1,#1565c0);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+button {
+    padding: 14px;
+    border: none;
+    background: #0d47a1;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+.features {
+    margin-top: 30px;
+    display: grid;
+    gap: 10px;
+}
+
+.features div {
+    background: #e3f2fd;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #eee;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Halol Property Hub</h1>
+    <p>Buy • Sell • Rent Property in Halol, Gujarat</p>
+</header>
+
+<div class="container">
+    <h2>Post Your Requirement</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="tel" placeholder="Mobile Number" required>
+
+        <select required>
+            <option value="">Select Purpose</option>
+            <option>Buy</option>
+            <option>Sell</option>
+            <option>Rent</option>
+        </select>
+
+        <select required>
+            <option value="">Property Type</option>
+            <option>Flat</option>
+            <option>Land</option>
+            <option>Duplex</option>
+            <option>Plot</option>
+            <option>Commercial</option>
+        </select>
+
+        <input type="text" placeholder="Location in Halol" required>
+        <input type="number" placeholder="Budget (₹)" required>
+
+        <textarea placeholder="Additional Details"></textarea>
+
+        <button type="submit">Submit Details</button>
+    </form>
+
+    <div class="features">
+        <h2>Why Choose Us?</h2>
+        <div>✔ Direct Buyer & Seller Connection</div>
+        <div>✔ Trusted Local Property Support</div>
+        <div>✔ Fast Response</div>
+        <div>✔ No Hidden Charges</div>
+    </div>
+</div>
+
+<footer>
+    © 2026 Halol Property Hub | All Rights Reserved
+</footer>
+
+</body>
+</html>
